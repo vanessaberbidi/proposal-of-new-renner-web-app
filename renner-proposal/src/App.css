@@ -1,0 +1,64 @@
+/* Header */
+header {
+  display: flex;
+}
+
+input {
+  height: 30px;
+  margin: 20px 50px;
+  width: 1000px;
+  background-color: rgba(0,0,0,.16);
+  border-radius: 5px;
+  border: 1px solid #cecece;
+  padding-left: 10px;
+}
+
+::placeholder {
+  color: black;
+}
+
+.logo {
+  width: 176px;
+  padding: 20px;
+}
+
+.icon {
+  padding-top: 25px;
+  width: 25px;
+  height: 22px;
+  padding-right: 20px;
+}
+
+/* Corpo do site */
+.container {
+  margin: 40px;
+  display: flex;
+}
+
+.content-left {
+  width: 60%;
+}
+
+.content-right {
+  padding-top: 50px;
+  width: 40%;
+  margin-right: 50px;
+  display: flex;
+}
+
+.align-item {
+  float: right;
+}
+
+.liked {
+  width: 30px;
+}
+
+.router {
+  font-size: 10px;
+  color: #cecece;
+}
+
+.img-styles {
+  padding: 10px 20px 10px 0px
+}
