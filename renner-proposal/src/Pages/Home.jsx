@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import Header from './Components/Header';
-import RightContent from './Components/RightContent';
+import RightComponent from './Components/RightComponent';
 import LeftComponent from './Components/LeftComponent';
 import Slogan from './Components/Slogan';
 
@@ -12,8 +12,8 @@ export default class Home extends React.Component {
         <Header />
         <Slogan />
         <div className="container">
-          <RightContent />
           <LeftComponent />
+          <RightComponent />
         </div>
       </div>
     )
