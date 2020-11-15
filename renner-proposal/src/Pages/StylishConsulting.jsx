@@ -12,11 +12,9 @@ export default class StylishConsulting extends React.Component {
         <div className="text">
           Obrigada pelo seu interesse! Nosso time encontrou esses consultores perto de você:
         </div>
-        <div>
-          <div className="consulting">
-            <p>Ana Silva</p>
-            <a href="#">Entre em contato</a>
-          </div>
+        <div className="consulting">
+          <p>Ana Silva</p>
+          <a href="#">Entre em contato</a>
         </div>
         <div className="consulting">
           <p>Bruna Oliveira</p>
