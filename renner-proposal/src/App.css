@@ -181,3 +181,13 @@ input {
 .square-color-two {
   background-color: pink;
 }
+
+.description-title {
+  color: #919191;
+  font-size: 16px;
+}
+
+.description {
+  color: #919191;
+  font-size: 16px;
+}
