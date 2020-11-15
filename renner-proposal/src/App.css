@@ -93,3 +93,10 @@ input {
 .img-styles {
   width: 45%;
 }
+
+/* Botões de Tamanho */
+.size-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
