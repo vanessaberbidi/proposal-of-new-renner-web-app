@@ -12,6 +12,15 @@ export default class RightComponent extends React.Component {
           <p>
             VESTIDO FEMININO PRETO COM SAIA RODADA
           </p>
+          <span className="ref">REF: 883226541</span>
+          <div className="squares-group">
+            <div className="square-border">
+              <div className="square-solid square-color-one"></div>
+            </div>
+            <div className="square-border">
+              <div className="square-solid square-color-two"></div>
+            </div>
+          </div>
         </div>
       </div>
     )
