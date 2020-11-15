@@ -7,9 +7,9 @@ export default class Measures extends React.Component {
     return (
       <div className="measures">
         <img className="img-measures" src={cabide}/>
-        <div className="provador-virtual-medidas">PROVADOR VIRTUAL</div>
+        <a className="provador-virtual-medidas">PROVADOR VIRTUAL</a>
         <img className="img-measures" src={trena}/>
-        <div className="provador-virtual-medidas">TABELA DE MEDIDAS</div>
+        <a className="provador-virtual-medidas">TABELA DE MEDIDAS</a>
       </div>
     )
   }

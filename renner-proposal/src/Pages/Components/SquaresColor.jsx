@@ -10,6 +10,15 @@ export default class SquaresColor extends React.Component {
         <div className="square-border">
           <div className="square-solid square-color-two"></div>
         </div>
+        <div className="square-border">
+          <div className="square-solid square-color-three"></div>
+        </div>
+        <div className="square-border">
+          <div className="square-solid square-color-four"></div>
+        </div>
+        <div className="square-border">
+          <div className="square-solid square-color-five"></div>
+        </div>
       </div>
     )
   }

@@ -8,6 +8,7 @@ export default class SizeButtons extends React.Component {
         <button className="size-buttons">P</button>
         <button className="size-buttons">M</button>
         <button className="size-buttons">G</button>
+        <button className="size-buttons">GG</button>
       </div>
     )
   }

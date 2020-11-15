@@ -189,12 +189,28 @@ input {
 }
 
 .square-color-two {
-  background-color: pink;
+  background-color: #3C973F;
+}
+
+.square-color-three {
+  background-color: #94778B;
+}
+
+.square-color-four {
+  background-color: #D0B17A;
+}
+
+.square-color-five {
+  background-color: #F2E8CF;
 }
 
 .description-title {
   color: #919191;
   font-size: 16px;
+}
+
+.description-title li {
+  font-size: 14px;
 }
 
 .description {
