@@ -95,10 +95,18 @@ input {
 }
 
 /* Botões de Tamanho */
-.size-buttons {
+.size-buttons-group {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.size-buttons {
+  margin: 10px;
+  width: 35px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #cecece;
 }
 
 .ref {
