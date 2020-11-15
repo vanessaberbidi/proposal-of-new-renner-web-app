@@ -90,9 +90,16 @@ input {
   padding-top: 5px;
 }
 
+.pinterest {
+  width: 70px;
+  padding-left: 240px;
+}
+
 .liked {
-  padding-left: 225px;
+  padding-left: 10px;
   width: 24px;
+  height: 20px;
+  padding-top: 5px;
 }
 
 .router {
@@ -106,6 +113,7 @@ input {
 
 .dress-description {
   display: flex;
+  font-size: 20px;
 }
 
 .price {

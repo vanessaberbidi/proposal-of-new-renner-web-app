@@ -1,6 +1,7 @@
 import React from 'react';
-import coracao from '../../img/coracao.png';
 import marfinno from '../../img/marfinno.png';
+import pinterest from '../../img/save-pinterest.png';
+import coracao from '../../img/coracao.png';
 import BuyButtons from './BuyButtons';
 import SquaresColor from './SquaresColor';
 import SizeButtons from './SizeButtons';
@@ -13,6 +14,7 @@ export default class RightComponent extends React.Component {
       <div className="content-right">
         <div className="align-item">
           <img className="marfinno" src={marfinno}/>
+          <img className="pinterest" src={pinterest}/>
           <img className="liked" src={coracao}/>
         </div>
         <div className="dress-description">
