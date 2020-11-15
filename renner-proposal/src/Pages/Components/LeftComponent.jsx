@@ -11,6 +11,6 @@ export default class LeftComponent extends React.Component {
         <hr/>
         <ClothesDetails />
       </div>
-    )
+    );
   }
 }
