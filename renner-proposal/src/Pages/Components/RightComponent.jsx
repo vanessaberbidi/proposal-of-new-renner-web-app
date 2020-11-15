@@ -3,11 +3,13 @@ import coracao from '../../img/coracao.png';
 import BuyButtons from './BuyButtons';
 import SquaresColor from './SquaresColor';
 import SizeButtons from './SizeButtons';
+import Measures from './Measures';
+import StylishConsulting from './StylishConsulting';
 
 export default class RightComponent extends React.Component {
   render() {
     return (
-      < div className="content-right">
+      <div className="content-right">
         <div className="align-item">
           <img className="liked" src={coracao}/>
         </div>
@@ -19,7 +21,9 @@ export default class RightComponent extends React.Component {
         <p className="ref">REF: 883226541</p>
         <SquaresColor />
         <SizeButtons />
+        <Measures />
         <BuyButtons />
+        <StylishConsulting />
       </div>
     )
   }

@@ -109,6 +109,16 @@ input {
   font-size: 15px;
 }
 
+.star-points {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.points-earned {
+  font-size: 15px;
+  color: #919191;
+}
+
 .buy-button-group {
   text-align: center;
 }
@@ -142,7 +152,7 @@ input {
 }
 
 .size-buttons {
-  margin: 10px;
+  margin: 0px 0px 0px 10px;
   width: 35px;
   height: 30px;
   background-color: white;
@@ -166,7 +176,7 @@ input {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
-  margin-right: 20px;
+  margin-right: 8px;
 }
 
 .square-solid {
@@ -190,4 +200,50 @@ input {
 .description {
   color: #919191;
   font-size: 16px;
+}
+
+/* Measures */
+.measures {
+  padding-top: 20px;
+  display: flex;
+}
+
+.img-measures {
+  width: 35px;
+  margin-right: 4px;
+}
+
+.provador-virtual-medidas {
+  font-size: 13px;
+  color: #919191;
+  padding-top: 8px;
+  padding-right: 15px;
+}
+
+/* Color Styling */
+.color-component {
+  border-radius: 10px;
+  border: 1px solid #6cac73;
+  padding: 15px;
+  display: flex;
+}
+
+.container-color {
+  display: flex;
+  width: 40%;
+}
+
+.image-colors {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
+
+.style-text {
+  font-size: 20px;
+  color: #254128;
+}
+
+.link-to-consulting {
+  color: #254128;
 }
