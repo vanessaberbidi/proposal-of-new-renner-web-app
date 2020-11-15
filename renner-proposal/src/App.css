@@ -72,7 +72,7 @@ input {
 
 .content-right {
   padding-top: 50px;
-  width: 40%;
+  width: 35%;
   margin-right: 50px;
   display: flex;
   flex-direction: column;
@@ -80,11 +80,19 @@ input {
 
 .align-item {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  padding-right: 36px;
+}
+
+.marfinno {
+  height: 10px;
+  width: 77px;
+  padding-top: 5px;
 }
 
 .liked {
-  width: 30px;
+  padding-left: 225px;
+  width: 24px;
 }
 
 .router {
