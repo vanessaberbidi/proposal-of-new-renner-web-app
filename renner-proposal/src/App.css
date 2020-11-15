@@ -79,7 +79,8 @@ input {
 }
 
 .align-item {
-  float: right;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .liked {
@@ -99,16 +100,45 @@ input {
   display: flex;
 }
 
+.price {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.price-divided {
+  font-size: 15px;
+}
+
+.buy-button-group {
+  text-align: center;
+}
+
 .buy-button {
-  display: flex;
   background-color: rgb(40, 199, 138);
+  width: 300px;
+  height: 50px;
+  margin: 10px 0px;
+  border: 1px solid rgba(145, 145, 145, 0.5);
+  color: white;
+}
+
+.one-click-button {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(145, 145, 145, 0.5);
+  background-color: white;
+}
+
+.one-click {
+  color: red;
 }
 
 /* Botões de Tamanho */
 .size-buttons-group {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: -10px;
+  margin-top: 12px;
 }
 
 .size-buttons {
